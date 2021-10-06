@@ -1,6 +1,6 @@
-
-　 <h2 class="mt-3">New book</h2>
-　 <% if book.errors.any? %>
+ <div class="col-md-3">
+  <h2 class="mt-3">New book</h2>
+  <% if book.errors.any? %>
     <%= book.errors.count %>error prohibited this obj from being saved:
     <% book.errors.full_messages.each do |message| %>
      <%= message %>
@@ -19,3 +19,4 @@
     <%= f.submit "Create Book" %>
     </div>
    <% end %>
+ </div>
