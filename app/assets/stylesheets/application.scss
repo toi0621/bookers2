@@ -15,5 +15,14 @@
  */
  @import "bootstrap";
  @import 'font-awesome-sprockets';
-@import 'font-awesome';
- 
+ @import 'font-awesome';
+
+.main_img {
+ width: 100px;
+}
+
+.fallback {
+ width: 40px !important;
+}
+
+
